@@ -1,0 +1,13 @@
+on_game_start_country = {
+	events = {
+		mixed.1
+		mixed.2
+
+		frontier.1
+		frontier.2
+		frontier.3
+
+		skyborn.1
+		skyborn.2
+	}
+}

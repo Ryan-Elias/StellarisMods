@@ -1,0 +1,5 @@
+﻿l_english:
+
+ civic_new_frontier:0 "New Frontier"
+ civic_new_frontier_desc:0 "This society seeks to understand and learn from the great expanse of space, rather than dominate it in the early space age."
+ civic_new_frontier_effects:0 "Start with a $science$ and assigned $scientist$ instead of $OUTLINER_FLEETS$. Begin the game with the Automated Exploration technology"

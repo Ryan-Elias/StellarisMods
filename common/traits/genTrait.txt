@@ -1,0 +1,26 @@
+leader_trait_Stands_Tall = {
+	cost = 1
+	modification = no
+	 icon = "gfx/interface/icons/traits/leader_traits/leader_trait_army_veteran.dds"
+	# Above is something I need to look for myself and determine the best fit. I'm keeping it here so that I know where to look.
+
+	self_modifier = {
+		species_leader_exp_gain = 0.5
+	}
+	modifier ={
+		army_attack_damage_mult = 0.5
+		army_attack_morale_mult = 1.0
+	}
+	leader_potential_add = {
+		NOT = { leader_class = ruler}
+		NOT = { from = { has_ethic = "ethic_gestalt_consciousness" } }
+		
+	}
+	leader_class = {general}
+	#opposites = { "leader_trait_stubborn" }
+	leader_trait = {general}
+	
+	ai_weight = {
+		weight = 50
+	}
+}

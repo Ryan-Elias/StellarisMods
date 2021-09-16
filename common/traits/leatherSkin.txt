@@ -1,0 +1,16 @@
+trait_Leather_Skin = {
+	cost = 2
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = {
+		BIOLOGICAL
+	}
+	modifier = {
+		army_attack_health_mult = 0.5
+		army_defense_health_mult = 0.5
+		leader_age = 40
+	}
+
+	slave_cost = {
+		energy = 100
+	}
+}

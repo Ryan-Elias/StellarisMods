@@ -1,0 +1,17 @@
+trait_Cheat = {
+	cost = 1
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = {
+		BIOLOGICAL
+		LITHOID
+	}
+	modifier = {
+		planet_jobs_specialist_produces_mult = 10
+		planet_jobs_worker_produces_mult = 10
+		planet_jobs_ruler_produces_mult = 10
+	}
+
+	slave_cost = {
+		energy = 100
+	}
+}
