@@ -1,4 +1,4 @@
 ﻿ l_english:
 
- civic_trained_specialist:0 "Trained Specialists"
- civic_trained_specialist_desc:0 "This society places a large emphasis on skilled labor."
+ trait_trainedSpecialists:0 "Trained Specialists"
+ trait_trainedSpecialists_desc:0 "Members of this species are more inclined for skilled labor than most."

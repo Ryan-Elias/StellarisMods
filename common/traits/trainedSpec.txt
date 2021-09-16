@@ -1,0 +1,15 @@
+trait_trainedSpecialists = {
+	cost = 3
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = {
+		BIOLOGICAL
+		LITHOID
+	}
+	modifier = {
+		planet_jobs_specialist_produces_mult = 0.1
+	}
+
+	slave_cost = {
+		energy = 100
+	}
+}
