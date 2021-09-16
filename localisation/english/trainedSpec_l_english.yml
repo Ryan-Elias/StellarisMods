@@ -1,4 +1,4 @@
 ﻿ l_english:
 
- trait_Trained_Specialists:0 "Trained Specialists"
- trait_Trained_Specialists_desc:0 "This species places a high value on skilled labor."
+ civic_trained_specialist:0 "Trained Specialists"
+ civic_trained_specialist_desc:0 "This society places a large emphasis on skilled labor."
