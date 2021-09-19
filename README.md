@@ -17,6 +17,7 @@
  - The People's Army (Start with Level 5 General, +30% Army Damage, +25% Governing Ethics Attraction)
  - New Frontier (No Starting Navy, Additional Starting Science Ship & Scientist, Science Ship Cost -20%, Start with Automatic Survey Technology)
  - Skyborn (Strike Craft Damage +20%, Evasion +10%, Start with Strike Craft 1 Technology)
+ - Space Elevator (Reduces district, buildings, starbase modules, and starbase builing construction costs by 10%)
 
 
 # TODO:
