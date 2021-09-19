@@ -17,7 +17,7 @@ civic_space_elevator = {
 
 	random_weight = { base = 5 }
 
-	# icon = "gfx/interface/icons/governments/civics/civic_technocracy.dds"
+	icon = "gfx/interface/icons/governments/civics/civic_empire_in_decline.dds"
 
 
 	modifier = {
