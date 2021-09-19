@@ -24,7 +24,7 @@ civic_space_elevator = {
 		planet_districts_cost_mult = 0.1
 		planet_buildings_cost_mult = 0.1
 		starbase_buildings_cost_mult = 0.1
-		starbase_module_cost_mult = 0.1
+		starbase_modules_cost_mult = 0.1
 	}
 
 

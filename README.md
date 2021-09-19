@@ -23,4 +23,6 @@
 # TODO:
 - Add images to all civics and traits.
 - Add debuffs to Army Structure Policy. Add Neutral default option to Army Structure Policy. 
- 
+
+# Changelog
+ - (9/19/2021) Added Space Elevator Civic
