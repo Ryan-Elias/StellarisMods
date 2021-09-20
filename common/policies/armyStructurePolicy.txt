@@ -8,6 +8,7 @@ policy_army_structure ={
 			is_country_type = primitive
 			is_country_type = awakened_marauders
 		}
+		num_species > 1
 	}
 
 	option = {
@@ -15,9 +16,10 @@ policy_army_structure ={
 		
 
 		modifier ={
-			army_attack_damage_mult = 0.5
-			army_defense_damage_mult = 0.5
+			army_attack_damage_mult = 0.2
+			army_defense_damage_mult = 0.2
 			pop_ethic_xenophile_attraction_mult = 0.25
+
 		}
 	}
 	option = {
@@ -26,8 +28,8 @@ policy_army_structure ={
 
 
 		modifier = {
-			army_attack_morale_mult = 0.5
-			army_defense_morale_mult = 0.5
+			army_attack_morale_mult = 0.2
+			army_defense_morale_mult = 0.2
 			pop_ethic_xenophobe_attraction_mult = 0.25
 		}
 	}

@@ -21,10 +21,10 @@
 
 
 # TODO:
-- Add images to all civics and traits.
-- Add debuffs to Army Structure Policy. Add Neutral default option to Army Structure Policy. 
+
 
 # Changelog
  - (9/19/2021) Added Space Elevator Civic
  - (9/19/2021) Added image to Space Elevator Civic
  - (9/20/2021) Removed ethic requirments from Space Elevator, added Void Dwellers restriction.
+ - (9/20/2021) Added number of species greater than 1 requirement for Army Structure Policy decision
