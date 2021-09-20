@@ -27,3 +27,4 @@
 # Changelog
  - (9/19/2021) Added Space Elevator Civic
  - (9/19/2021) Added image to Space Elevator Civic
+ - (9/20/2021) Removed ethic requirments from Space Elevator, added Void Dwellers restriction.
