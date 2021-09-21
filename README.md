@@ -28,3 +28,4 @@
  - (9/19/2021) Added image to Space Elevator Civic
  - (9/20/2021) Removed ethic requirments from Space Elevator, added Void Dwellers restriction.
  - (9/20/2021) Added number of species greater than 1 requirement for Army Structure Policy decision
+ - (9/21/2021) Changed tooltip on New Frontier to say NOT Militarist instead of militarist.
