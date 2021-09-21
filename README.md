@@ -18,7 +18,7 @@
  - New Frontier (No Starting Navy, Additional Starting Science Ship & Scientist, Science Ship Cost -20%, Start with Automatic Survey Technology)
  - Skyborn (Strike Craft Damage +20%, Evasion +10%, Start with Strike Craft 1 Technology)
  - Space Elevator (Reduces district, buildings, starbase modules, and starbase builing construction costs by 10%)
- - Military Nepotism (Admiral Max Rank -1, Ship Fire Rate +20%, Military Ship Build Speed +20%)
+ - Military Nepotism (Ship Fire Rate +20%, Corvette Build Speed +20%, Fleet Command Limit +15)
 
 
 # TODO:
