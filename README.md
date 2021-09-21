@@ -18,6 +18,7 @@
  - New Frontier (No Starting Navy, Additional Starting Science Ship & Scientist, Science Ship Cost -20%, Start with Automatic Survey Technology)
  - Skyborn (Strike Craft Damage +20%, Evasion +10%, Start with Strike Craft 1 Technology)
  - Space Elevator (Reduces district, buildings, starbase modules, and starbase builing construction costs by 10%)
+ - Military Nepotism (Admiral Max Rank -1, Ship Fire Rate +20%, Military Ship Build Speed +20%)
 
 
 # TODO:
@@ -29,3 +30,4 @@
  - (9/20/2021) Removed ethic requirments from Space Elevator, added Void Dwellers restriction.
  - (9/20/2021) Added number of species greater than 1 requirement for Army Structure Policy decision
  - (9/21/2021) Changed tooltip on New Frontier to say NOT Militarist instead of militarist.
+ - (9/21/2021) Added Military Nepotism Civic

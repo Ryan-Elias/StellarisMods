@@ -1,0 +1,44 @@
+civic_Military_Nepotism = {
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness	} } #Cannot be a gestalt conciousness
+		authority = { NOR = {
+			value = auth_ancient_machine_intelligence
+			value = auth_corporate } #Cannot be a Machine Intelligence or a Corporation
+		}
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+			}
+			OR = {
+				text = civic_tooltip_authoritarian
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
+			NOR = {
+				text = civic_tooltip_not_pacifist
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
+			}
+		}
+	}
+
+	random_weight = { base = 5 }
+
+	icon = "gfx/interface/icons/governments/civics/civic_distinguished_admiralty.dds"
+
+
+
+	modifier = {
+		skill_admiral = -1
+		ship_fire_rate_mult = 0.2
+		shipclass_military_build_speed_mult = 0.2
+		shipclass_military_build_cost_mult = 0.2
+	}
+
+
+
+}
