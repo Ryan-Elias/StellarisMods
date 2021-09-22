@@ -72,7 +72,7 @@ planet_event = {
 					}	
 				}
 				reroll_planet = yes
-				create_early_primitive_empire = yes
+				create_late_primitive_empire = yes
 				create_pop = {
 					species = root.owner_main_species
 				}
