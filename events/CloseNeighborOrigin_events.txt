@@ -1,0 +1,146 @@
+namespace = neighbor
+
+country_event = {
+	id = neighbor.1
+	hide_window = yes
+	fire_only_once = yes
+	trigger = {
+		NOT = {
+			has_global_flag = neighbor_installed
+		}
+	}
+	immediate = {
+		set_global_flag = neighbor_installed
+	}
+}
+
+
+planet_event = {
+    id = neighbor.2
+    hide_window = yes
+    fire_only_once = yes
+    is_triggered_only = yes
+    trigger = {
+        owner = {
+            has_origin = origin_close_neighbor
+        }
+    }
+    immediate = {
+        solar_system = {
+            random_system_planet = {
+                limit = {
+					 NOT = { is_same_value = PREVPREV } 
+					 is_star = no
+					}
+				save_event_target_as = my_event_tar						
+				prevprev = {
+					switch = {
+						trigger = is_planet_class
+						pc_arid = {
+							event_target:my_event_tar = { change_pc = pc_arid }
+						}
+						pc_desert = {
+							event_target:my_event_tar = { change_pc = pc_desert }
+						}
+						pc_savannah = {
+							event_target:my_event_tar = { change_pc = pc_savannah }
+						}
+						pc_continental = {
+							event_target:my_event_tar = { change_pc = pc_desert }
+						}
+						pc_ocean = {
+							event_target:my_event_tar = { change_pc = pc_ocean }
+						}
+						pc_tropical = {
+							event_target:my_event_tar = { change_pc = pc_tropical }
+						}
+						pc_alpine = {
+							event_target:my_event_tar = { change_pc = pc_tropical }
+						}
+						pc_arctic = {
+							event_target:my_event_tar= { change_pc = pc_arctic }
+						}
+						pc_tundra = {
+							event_target:my_event_tar = { change_pc = pc_tundra }
+						}
+						pc_nuked = {
+							event_target:my_event_tar = { change_pc = pc_nuked }
+						}
+						default = {
+							log = "the planet ideal design class representative is not one of the 9 basic classes or pc_nuked - using the default code"
+						}
+					}	
+				}
+				reroll_planet = yes
+				create_early_primitive_empire = yes
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+				create_pop = {
+					species = root.owner_main_species
+				}
+
+				add_building = building_primitive_capital
+				add_building = building_primitive_dwellings
+				add_building = building_primitive_dwellings
+				add_building = building_primitive_factory
+				add_building = building_primitive_farm
+				
+
+
+				set_planet_size = 16
+
+				
+
+
+
+
+            }
+        }
+	}
+}

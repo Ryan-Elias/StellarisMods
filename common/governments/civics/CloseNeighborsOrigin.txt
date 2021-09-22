@@ -1,0 +1,31 @@
+origin_close_neighbor = {
+	is_origin = yes
+
+	#icon
+	# picture = gfx_
+
+	possible = {
+		ethics = {
+			#Not possible for Gestalt Conciousness or Machine Intelligence
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+		authority = {
+			NOT = {
+				value = auth_machine_intelligence 
+			}
+		}
+	}
+	random_weight = {
+		base = 3
+	}
+
+	#modifiers
+	#Traits
+	#Flags
+
+
+
+
+}

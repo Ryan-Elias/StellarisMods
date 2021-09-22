@@ -9,5 +9,14 @@ on_game_start_country = {
 
 		skyborn.1
 		skyborn.2
+
+		neighbor.1
+
+	}
+}
+
+empire_init_capital_planet = {
+	events = {
+		neighbor.2
 	}
 }

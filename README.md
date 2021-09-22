@@ -20,8 +20,11 @@
  - Space Elevator (Reduces district, buildings, starbase modules, and starbase builing construction costs by 10%)
  - Military Nepotism (Ship Fire Rate +20%, Corvette Build Speed +20%, Fleet Command Limit +15)
 
+## Origins
+- Close Neighbors (Begin the game with a primitive civ of the same species in your homesystem)
 
 # TODO:
+ - Add Images to the Close Neighbor Origin
 
 
 # Changelog
@@ -31,3 +34,4 @@
  - (9/20/2021) Added number of species greater than 1 requirement for Army Structure Policy decision
  - (9/21/2021) Changed tooltip on New Frontier to say NOT Militarist instead of militarist.
  - (9/21/2021) Added Military Nepotism Civic
+ - (9/22/2021) Added Close Neighbor Origin
