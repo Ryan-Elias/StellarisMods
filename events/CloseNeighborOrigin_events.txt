@@ -46,7 +46,7 @@ planet_event = {
 							event_target:my_event_tar = { change_pc = pc_savannah }
 						}
 						pc_continental = {
-							event_target:my_event_tar = { change_pc = pc_desert }
+							event_target:my_event_tar = { change_pc = pc_continental }
 						}
 						pc_ocean = {
 							event_target:my_event_tar = { change_pc = pc_ocean }
@@ -55,7 +55,7 @@ planet_event = {
 							event_target:my_event_tar = { change_pc = pc_tropical }
 						}
 						pc_alpine = {
-							event_target:my_event_tar = { change_pc = pc_tropical }
+							event_target:my_event_tar = { change_pc = pc_alpine }
 						}
 						pc_arctic = {
 							event_target:my_event_tar= { change_pc = pc_arctic }
