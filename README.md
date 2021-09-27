@@ -36,3 +36,4 @@
  - (9/21/2021) Added Military Nepotism Civic
  - (9/22/2021) Added Close Neighbor Origin
  - (9/27/2021) Consolidated files, added Military HQ and Joint Chiefs job to People's Army civic. 
+ - (9/27/2021) Removed Army Structure Policy
