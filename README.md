@@ -6,6 +6,7 @@
 - Leather Skin (+50% Army Health, +40 Leader Lifespan, +5% Worker Resource Output)
 - Quasi Immortal (+1000 Leader Lifespan, -50% Leadership Experience Gain, -30% Pop Growth Speed)
 - Trained Specialists (+10% Specialist Output)
+- Four traits that add or remove trait points (4, 2, -2, -4, respectively)
 
 ## Leader Traits
 - Stands Tall (+50% Experience Gain, +100% Army Morale, +50% Army Damage)
@@ -37,3 +38,4 @@
  - (9/22/2021) Added Close Neighbor Origin
  - (9/27/2021) Consolidated files, added Military HQ and Joint Chiefs job to People's Army civic. 
  - (9/27/2021) Removed Army Structure Policy
+ - (9/27/2021) Added 4 species traits that add or remove trait points during creation (May spawn in game randomly, but that might not be bad.)

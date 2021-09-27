@@ -96,3 +96,72 @@ trait_trainedSpecialists = {
 		energy = 100
 	}
 }
+
+## Below are generic traits that simply add or remove trait points via cost. 
+
+# Ideal Upbringing
+trait_ideal_Upbringing = {
+	cost = -4
+
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = {
+		BIOLOGICAL
+		LITHOID
+	}
+
+	opposites = {
+		trait_impressive_specimen
+		trait_how
+		trait_stunted_development
+	}
+
+
+}
+# Impressive Specimen
+trait_impressive_specimen = {
+	cost = -2
+
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = {
+		BIOLOGICAL
+		LITHOID
+	}
+
+	opposites = {
+		trait_ideal_Upbringing
+		trait_how
+		trait_stunted_development
+	}
+}
+# Stunted Development
+trait_stunted_development = {
+	cost = 2
+
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = {
+		BIOLOGICAL
+		LITHOID
+	}
+
+	opposites = {
+		trait_impressive_specimen
+		trait_how
+		trait_ideal_Upbringing
+	}
+}
+# How are you even alive?
+trait_how = {
+	cost = 4
+
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = {
+		BIOLOGICAL
+		LITHOID
+	}
+
+	opposites = {
+		trait_impressive_specimen
+		trait_ideal_Upbringing
+		trait_stunted_development
+	}
+}
