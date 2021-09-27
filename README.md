@@ -11,7 +11,7 @@
 - Stands Tall (+50% Experience Gain, +100% Army Morale, +50% Army Damage)
 
 ## Policies
- - Army Structure (+50% Army Morale & +25% Xenophobe Ethics Attraction // +50% Army Damage & +25% Xenophile Ethics Attraction)
+
 
  ## Civics
  - The People's Army (Start with Level 5 General, +30% Army Damage, +25% Governing Ethics Attraction, Military Headquarters building, Joint Chiefs jobs)
