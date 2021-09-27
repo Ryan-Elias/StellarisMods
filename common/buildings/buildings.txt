@@ -1,0 +1,50 @@
+
+building_Military_HQ = {
+
+	base_buildtime = 300
+	icon = building_military_academy
+	base_cap_amount = 1
+	category = army
+
+	potential = {
+		exists = owner
+		 owner = { has_valid_civic = civic_Mixed_Unit_Tactics } 
+		NOT = { has_modifier = slave_colony }
+	}
+
+	allow = {
+		has_upgraded_capital = yes
+		buildings_simple_allow = yes
+	}
+
+	 destroy_trigger = {
+	 	exists = owner
+	 	 NOT = {
+	 	 	owner = { has_civic = civic_Mixed_Unit_Tactics }
+	 	 }
+	 }
+
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 400
+		}
+		upkeep = {
+			energy = 3
+		}
+	}
+
+	triggered_planet_modifier = {
+
+		potential = {
+            exists = owner
+            owner = { is_regular_empire = yes }
+        }
+		modifier = {
+			job_joint_chief_add = 1 
+			job_soldier_add = 2
+		}
+	}
+
+}

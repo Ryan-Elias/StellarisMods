@@ -1,0 +1,58 @@
+# Joint Chief
+
+joint_chief = {
+	category = ruler
+	condition_string = RULER_JOB_TRIGGER
+	building_icon = building_military_academy
+	clothes_texture_index = 4
+	icon = soldier
+
+	possible_pre_triggers = {
+		has_owner = yes
+		is_enslaved = no
+		is_being_purged = no
+		is_being_assimilated = no
+		is_sapient = yes
+	}
+
+	possible = {
+		ruler_job_check_trigger = yes
+		owner = {
+			is_gestalt = no
+		}
+	}
+	resources = {
+		category = planet_soldiers
+		produces = {
+			unity = 5
+		}
+	}
+	planet_modifier = {
+		planet_stability_add = 5
+	}
+	country_modifier = {
+		country_naval_cap_add = 5
+	}
+	triggered_country_modifier = {
+		potential = {
+			exists = planet
+			planet = {
+				exists = owner
+				owner = { has_technology = "tech_ground_defense_planning" }
+			}
+		}
+		modifier = {
+			country_naval_cap_add = 3
+		}
+	}
+	triggered_pop_modifier = {
+		pop_defense_armies_add = 2
+	}
+
+	weight = {
+		weight = 10
+	}
+
+
+
+}

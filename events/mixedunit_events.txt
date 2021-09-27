@@ -41,3 +41,20 @@ country_event = {
 		}
 	}
 }
+
+
+country_event = {
+	id = mixed.3
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_civic = civic_Mixed_Unit_Tactics
+	}
+
+	immediate = {
+		this.home_planet = {
+			add_building = building_Military_HQ
+		}
+		
+	}
+}

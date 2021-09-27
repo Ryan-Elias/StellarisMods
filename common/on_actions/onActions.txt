@@ -2,6 +2,7 @@ on_game_start_country = {
 	events = {
 		mixed.1
 		mixed.2
+		mixed.3
 
 		frontier.1
 		frontier.2
@@ -11,6 +12,9 @@ on_game_start_country = {
 		skyborn.2
 
 		neighbor.1
+
+		#test.1
+		#test.2
 
 	}
 }

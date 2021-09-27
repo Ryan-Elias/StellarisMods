@@ -1,0 +1,98 @@
+
+# Like Weeds
+trait_likeWeeds = {
+
+	cost = 3
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = {
+		BIOLOGICAL
+	}
+
+	opposites = { "trait_nonadaptive" "trait_extremely_adaptive" "trait_robust" "trait_adaptive_lithoid" "trait_rapid_breeders" "trait_rapid_breeders_lithoid" "trait_slow_breeders" }
+
+	modifier = {
+		pop_growth_speed = 0.1
+		pop_environment_tolerance = 0.10
+
+	}
+	slave_cost = {
+		energy = 100
+	}
+}
+
+# Leather Skin
+trait_Leather_Skin = {
+	cost = 4
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = {
+		BIOLOGICAL
+	}
+	modifier = {
+		army_attack_health_mult = 0.5
+		army_defense_health_mult = 0.5
+		leader_age = 40
+		planet_jobs_worker_produces_mult = 0.05
+
+	}
+
+	opposites = {
+		trait_strong
+		trait_very_strong
+		trait_weak
+		trait_venerable
+		trait_enduring
+		trait_fleeting
+	}
+
+	slave_cost = {
+		energy = 100
+	}
+}
+
+# Quasi Immortal
+trait_Quasi_Immortal = {
+	cost = 4
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = {
+		BIOLOGICAL
+		LITHOID
+	}
+	modifier = {
+		leader_age = 1000
+		species_leader_exp_gain = -0.50
+		pop_growth_speed = -0.30
+	}
+	opposites = {
+		trait_rapid_breeders
+		trait_slow_breeders
+		trait_slow_learners
+		trait_quick_learners
+		trait_venerable
+		trait_Leather_Skin
+		trait_fleeting
+	}
+
+	slave_cost = {
+		energy = 100
+	}
+}
+
+# Trained Specialists
+trait_trainedSpecialists = {
+	cost = 3
+	potential_crossbreeding_chance = 1.0
+	allowed_archetypes = {
+		BIOLOGICAL
+		LITHOID
+	}
+	modifier = {
+		planet_jobs_specialist_produces_mult = 0.1
+	}
+	opposites = {
+		trait_intelligent
+	}
+
+	slave_cost = {
+		energy = 100
+	}
+}

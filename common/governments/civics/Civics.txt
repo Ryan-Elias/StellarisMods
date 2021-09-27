@@ -1,0 +1,158 @@
+#People's Army
+civic_Mixed_Unit_Tactics = {
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness	} }#Cannot be a gestalt conciousness
+		authority = { NOR = {
+			value = auth_ancient_machine_intelligence
+			value = auth_corporate } #Cannot be a Machine Intelligence or a Corporation
+		}
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+			}
+			NOR = {
+				text = civic_tooltip_not_xenophobe
+				value = ethic_xenophobe
+				value = ethic_fanatic_xenophobe
+			}
+		}
+	}
+
+	random_weight = { base = 5 }
+
+	description = "civic_Mixed_Unit_Tactics_effects"
+	icon = "gfx/interface/icons/governments/civics/civic_warrior_culture.dds"
+
+
+
+	modifier = {
+		army_attack_damage_mult = 0.3
+		army_defense_damage_mult = 0.3
+
+		pop_government_ethic_attraction = 0.25
+	}
+}
+
+
+# Military Nepotism
+civic_Military_Nepotism = {
+	potential = {
+		ethics = { NOT = { value = ethic_gestalt_consciousness	} } #Cannot be a gestalt conciousness
+		authority = { NOR = {
+			value = auth_ancient_machine_intelligence
+			value = auth_corporate } #Cannot be a Machine Intelligence or a Corporation
+		}
+	}
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+			}
+			OR = {
+				text = civic_tooltip_authoritarian
+				value = ethic_authoritarian
+				value = ethic_fanatic_authoritarian
+			}
+			NOR = {
+				text = civic_tooltip_not_pacifist
+				value = ethic_pacifist
+				value = ethic_fanatic_pacifist
+			}
+		}
+	}
+
+	random_weight = { base = 5 }
+
+	icon = "gfx/interface/icons/governments/civics/civic_distinguished_admiralty.dds"
+	modifier = {
+		# ship_build
+		ship_fire_rate_mult = 0.4
+	}
+}
+
+
+# New Frontier
+civic_new_frontier = {
+
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_materialist			
+			}
+			NOR = {
+				text = civic_tooltip_not_militarist
+				value = ethic_militarist
+				value = ethic_fanatic_militarist
+			}
+		}
+	}
+
+	random_weight = { base = 5 }
+
+	icon = "gfx/interface/icons/governments/civics/civic_technocracy.dds"
+
+	description = "civic_new_frontier_effects"
+
+	modifier = {
+		ship_science_cost_mult = -0.2
+	}
+}
+
+
+# Skyborn
+civic_skyborn = {
+
+	possible = {
+		ethics = {
+			OR = {
+				text = civic_tooltip_materialist
+				value = ethic_materialist
+				value = ethic_fanatic_materialist			
+			}
+		}
+	}
+
+	random_weight = { base = 5 }
+
+	icon = "gfx/interface/icons/governments/civics/civic_naval_contractors.dds"
+
+	description = "civic_skyborn_effects"
+
+
+	modifier = {
+		weapon_type_strike_craft_weapon_damage_mult = 0.2
+		ship_evasion_mult = 0.1
+	}
+}
+
+# Space Elevator
+civic_space_elevator = {
+
+	possible = {
+		origin = {
+			NOT = {
+				value = origin_void_dwellers
+			}
+		}
+	}
+
+	random_weight = { base = 5 }
+
+	icon = "gfx/interface/icons/governments/civics/civic_empire_in_decline.dds"
+
+
+	modifier = {
+		planet_districts_cost_mult = -0.1
+		planet_buildings_cost_mult = -0.1
+		starbase_buildings_cost_mult = -0.1
+		starbase_modules_cost_mult = -0.1
+	}
+}

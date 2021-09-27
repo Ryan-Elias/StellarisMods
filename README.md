@@ -14,14 +14,14 @@
  - Army Structure (+50% Army Morale & +25% Xenophobe Ethics Attraction // +50% Army Damage & +25% Xenophile Ethics Attraction)
 
  ## Civics
- - The People's Army (Start with Level 5 General, +30% Army Damage, +25% Governing Ethics Attraction)
+ - The People's Army (Start with Level 5 General, +30% Army Damage, +25% Governing Ethics Attraction, Military Headquarters building, Joint Chiefs jobs)
  - New Frontier (No Starting Navy, Additional Starting Science Ship & Scientist, Science Ship Cost -20%, Start with Automatic Survey Technology)
  - Skyborn (Strike Craft Damage +20%, Evasion +10%, Start with Strike Craft 1 Technology)
  - Space Elevator (Reduces district, buildings, starbase modules, and starbase builing construction costs by 10%)
  - Military Nepotism (Ship Fire Rate +20%, Corvette Build Speed +20%, Fleet Command Limit +15)
 
 ## Origins
-- Close Neighbors (Begin the game with a primitive civ of the same species in your homesystem)
+- Close Neighbors (Begin the game with a primitive civ of the same species in your home system)
 
 # TODO:
  - Add Images to the Close Neighbor Origin
@@ -35,3 +35,4 @@
  - (9/21/2021) Changed tooltip on New Frontier to say NOT Militarist instead of militarist.
  - (9/21/2021) Added Military Nepotism Civic
  - (9/22/2021) Added Close Neighbor Origin
+ - (9/27/2021) Consolidated files, added Military HQ and Joint Chiefs job to People's Army civic. 
