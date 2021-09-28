@@ -12,6 +12,10 @@
 - Stands Tall (+50% Experience Gain, +100% Army Morale, +50% Army Damage)
 
 ## Policies
+ - Scientific Meritocracy (0.25 Energy, Physics, Engineering, Society Trade Conversion)
+ - Social Market (0.5 Energy, 0.25 Society Trade Conversion)
+ - Quantum Trade (0.5 Energy, 0.25 Physics Trade Conversion)
+ - The Art of the Deal(0.5 Energy, 0.25 Engineering Trade Conversion)
 
 
  ## Civics
@@ -39,3 +43,4 @@
  - (9/27/2021) Consolidated files, added Military HQ and Joint Chiefs job to People's Army civic. 
  - (9/27/2021) Removed Army Structure Policy
  - (9/27/2021) Added 4 species traits that add or remove trait points during creation (May spawn in game randomly, but that might not be bad.)
+ - (9/27/2021) Added 4 Trade Conversion Policies that provide Science for trade value.

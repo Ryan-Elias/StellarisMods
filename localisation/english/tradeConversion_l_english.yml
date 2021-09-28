@@ -1,0 +1,17 @@
+﻿l_english:
+
+ trade_conversion_science_name:0 "Scientific Meritocracy"
+ trade_policy_science:0 "Scientific Meritocracy"
+ trade_policy_science_desc:0 "High Trade facilitates research in all categories. \n\n Each trade value earns us 0.25 Energy and 0.25 Society, Physics, and Engineering Research."
+
+ trade_conversion_society_name:0 "Social Market"
+ trade_policy_society:0 "Social Market"
+ trade_policy_society_desc:0 "The exchange of goods provides valuable insights into how people interact. \n\n Each trade value earns us 0.5 Energy and 0.25 Society Research."
+
+ trade_conversion_physics_name:0 "Quantum Trade"
+ trade_policy_physics:0 "Quantum Trade"
+ trade_policy_physics_desc:0 "Trades that are so good you'll think that they never happened. And depending on your reality, it may not have.\n\n Each trade value earns us 0.5 Energy and 0.25 Physics Research."
+
+ trade_conversion_engineering_name:0 "The Art of the Deal"
+ trade_policy_engineering:0 "The Art of the Deal"
+ trade_policy_engineering_desc:0 "It takes a certain ingenuity to facilitate interstellar trade between systems of radically different spaceport building codes and regulations.\n\n Each trade value earns us 0.5 Energy and 0.25 Engineering Research."

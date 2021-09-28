@@ -1,5 +1,4 @@
 # Joint Chief
-
 joint_chief = {
 	category = ruler
 	condition_string = RULER_JOB_TRIGGER
@@ -52,7 +51,6 @@ joint_chief = {
 	weight = {
 		weight = 10
 	}
-
-
-
 }
+
+
